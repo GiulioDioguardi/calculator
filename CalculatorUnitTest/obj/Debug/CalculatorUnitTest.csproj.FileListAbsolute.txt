@@ -1,0 +1,7 @@
+C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Calculator\CalculatorUnitTest\bin\Debug\CalculatorUnitTest.dll
+C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Calculator\CalculatorUnitTest\bin\Debug\CalculatorUnitTest.pdb
+C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Calculator\CalculatorUnitTest\bin\Debug\Calculator.exe
+C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Calculator\CalculatorUnitTest\bin\Debug\Calculator.pdb
+C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Calculator\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Calculator\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.dll
+C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Calculator\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.pdb

@@ -26,7 +26,7 @@ namespace Calculator
         bool operatorPressed = false;
         //creates an object from a class from an external file that contains
         //all calculations 
-        Calculator.Operations calculations = new Operations();
+        Operations calculations = new Operations();
 
         public Form1()
         {
