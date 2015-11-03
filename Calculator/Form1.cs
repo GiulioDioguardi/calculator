@@ -26,7 +26,7 @@ namespace Calculator
         bool operatorPressed = false;
         //creates an object from a class from an external file that contains
         //all calculations 
-        Operations calculations = new Operations();
+        
 
         public Form1()
         {
@@ -105,7 +105,7 @@ namespace Calculator
                     if (!resultPressed)
                     {
                         value2 = double.Parse(textBox1.Text, CultureInfo.GetCultureInfo("nl-NL").NumberFormat);
-                        result = calculations.NormalOperation(operation, value1, value2);
+                        result = Operations.NormalOperation(operation, value1, value2);
                         textBox1.Text = result.ToString(CultureInfo.GetCultureInfo("nl-NL").NumberFormat);
                     }
                     else
@@ -147,7 +147,7 @@ namespace Calculator
             
             if (!resultPressed)
                 value2 = double.Parse(textBox1.Text, CultureInfo.GetCultureInfo("nl-NL").NumberFormat);
-            result = calculations.NormalOperation(operation, value1, value2);
+            result = Operations.NormalOperation(operation, value1, value2);
             textBox1.Text = result.ToString(CultureInfo.GetCultureInfo("nl-NL").NumberFormat);
             //to get the repeated calculation going, value1 is set to the previous
             //result.
@@ -176,7 +176,7 @@ namespace Calculator
             resultPressed = true;
             label1.Text = b.Text;
             value2 = double.Parse(textBox1.Text, CultureInfo.GetCultureInfo("nl-NL").NumberFormat);
-            result = calculations.SpecialOperation(operation, value2);
+            result = Operations.SpecialOperation(operation, value2);
             textBox1.Text = result.ToString(CultureInfo.GetCultureInfo("nl-NL").NumberFormat);
             value1 = result;
         }

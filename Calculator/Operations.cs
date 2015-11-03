@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    public class Operations
+    public static class Operations
     {
-        public double NormalOperation(string operation, double value1, double value2)
+        public static double NormalOperation(string operation, double value1, double value2)
         {
             double result;
             // This switch statement checks what operation to execute based on the operation
@@ -49,7 +49,7 @@ namespace Calculator
             return result;
         }
 
-        public double SpecialOperation(string operation, double value)
+        public static double SpecialOperation(string operation, double value)
         {
             double result;
             // This switch statement checks what special operation to execute based on the operation
@@ -94,7 +94,7 @@ namespace Calculator
         //is caught, the method will return 0. Mainly to prevent an OverflowException,
         //or a DivideByZeroException
 
-        private double Add(double value1, double value2)
+        private static double Add(double value1, double value2)
         {
             //Adds 2 values together
             try
@@ -107,7 +107,7 @@ namespace Calculator
             }
         }
 
-        private double Substract(double value1, double value2)
+        private static double Substract(double value1, double value2)
         {
             //Substracts 2 values from each other
             try
@@ -120,7 +120,7 @@ namespace Calculator
             }
         }
 
-        private double Divide(double value1, double value2)
+        private static double Divide(double value1, double value2)
         {
             //Divides 2 values with each other
             try
@@ -133,7 +133,7 @@ namespace Calculator
             }
         }
 
-        private double Multiply(double value1, double value2)
+        private static double Multiply(double value1, double value2)
         {
             // Multiplies 2 values with each other
             try
@@ -146,7 +146,7 @@ namespace Calculator
             }
         }
 
-        private double Remainder(double value1, double value2)
+        private static double Remainder(double value1, double value2)
         {
             //returns the remainder of value1 / value2
             try
@@ -159,7 +159,7 @@ namespace Calculator
             }
         }
 
-        private double Power(double value1, double value2)
+        private static double Power(double value1, double value2)
         {
             // returns value1^value2
             try
@@ -172,7 +172,7 @@ namespace Calculator
             }
         }
 
-        private double PowerRoot(double value1, double value2)
+        private static double PowerRoot(double value1, double value2)
         {
             //returns the value2 powerroot of value1
             try
@@ -185,7 +185,7 @@ namespace Calculator
             }
         }
 
-        private double BaseLog(double value1, double value2)
+        private static double BaseLog(double value1, double value2)
         {
             try
             {
@@ -197,7 +197,7 @@ namespace Calculator
             }
         }
 
-        private double SquareRoot(double value)
+        private static double SquareRoot(double value)
         {
             //returns the square root of a value
             try
@@ -210,7 +210,7 @@ namespace Calculator
             }
         }
 
-        private double ToSecondPower(double value)
+        private static double ToSecondPower(double value)
         {
             //returns the 2nd power of a value
             try
@@ -223,7 +223,7 @@ namespace Calculator
             }
         }
 
-        private double NaturalLog(double value)
+        private static double NaturalLog(double value)
         {
             //returns the natural logarithm of a value
             try
@@ -236,7 +236,7 @@ namespace Calculator
             }
         }
 
-        private double EPower(double value)
+        private static double EPower(double value)
         {
             //returns e^value
             try
@@ -249,7 +249,7 @@ namespace Calculator
             }
         }
 
-        private double Log10(double value)
+        private static double Log10(double value)
         {
             // returns 10_log of value
             try
@@ -262,7 +262,7 @@ namespace Calculator
             }
         }
 
-        private double Sine(double value)
+        private static double Sine(double value)
         {
             // returns the sine of value
             try
@@ -275,7 +275,7 @@ namespace Calculator
             }
         }
 
-        private double ArcSine(double value)
+        private static double ArcSine(double value)
         {
             //returns the arc sine of value
             try
@@ -288,7 +288,7 @@ namespace Calculator
             }
         }
 
-        private double Cosine(double value)
+        private static double Cosine(double value)
         {
             //returns the cosine of value
             try
@@ -301,7 +301,7 @@ namespace Calculator
             }
         }
 
-        private double ArcCosine(double value)
+        private static double ArcCosine(double value)
         {
             //returns the arc cosine of value
             try
